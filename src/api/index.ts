@@ -28,6 +28,8 @@ app.get("/", (req, res) => {
   res.send("Hello world lawyer");
 });
 
-app.listen(process.env.PORT, () => {
-  console.log("running!");
-});
+// app.listen(process.env.PORT, () => {
+//   console.log("running!");
+// });
+
+export default app;
